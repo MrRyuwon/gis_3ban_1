@@ -1,18 +1,18 @@
 <div style="text-align: center">
     <div class="pragmatic_header_logo">
         <a href="{% url 'home' %}">
-            <h1>pragmatic</h1>
+            <h1>Pragmatic</h1>
         </a>
     </div>
     <div class="pragmatic_header_button">
         <span class="mx-2">
             <a href="{% url 'articleapp:list' %}">
-                Articles
+                Article
             </a>
         </span>
         <span class="mx-2">
             <a href="{% url 'projectapp:list' %}">
-                Projects
+                Project
             </a>
         </span>
         {% if user.is_authenticated %}
